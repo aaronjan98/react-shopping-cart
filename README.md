@@ -121,7 +121,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
 
-**STEP 5 - Providing data with CartContext**
+**STEP 6 - Providing data with CartContext**
 
 - Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider.
 
@@ -158,9 +158,9 @@ We have now successfully converted our application into using `Context API` 🔥
 
 ## _MVP Requirements:_
 
-- Create a `ProductContext` and a `CartContext`
-- Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
-- Consume data using the `useContext` hook from `ProductContext` and `CartContext`
+- [x] Create a `ProductContext` and a `CartContext`
+- [x] Use the Provider Component from `ProductContext` and `CartContext` to provide data to child components
+- [x] Consume data using the `useContext` hook from `ProductContext` and `CartContext`
 
 ## Stretch Problems
 
